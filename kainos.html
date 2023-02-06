@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EK Transport</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="slider.css">
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="kainos.css">
+  <script src="https://kit.fontawesome.com/fbf0f92caf.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  
+  <script src="script-calendar.js" defer></script>
+</head>
+
+<body>
+  <section class="apie-header">
+      <nav>
+        <a href="index.html"><img src="pictures/ek transport-logo white.png" class="logo"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+
+            <ul>
+              <a href="apie.html"><li>APIE MUS</li></a>
+              <a href="marsrutas.html"><li>MARŠRUTAS</li></a>
+              <a href="kainos.html"><li>KAINOS</li></a>
+              <a href="taisykles.html"><li>TAISYKLĖS</li></a>
+              <a href="kontaktai.html"><li>KONTAKTAI</li></a>
+            </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+      </nav>
+      <h1>Kainos</h1> 
+  </section>
+  <h1 class="price-list-name">Siuntinių ir krovinių kainoraštis</h1>
+
+  <div class="immportant">
+   
+    <p class="immportant-text"> <i class="fa-sharp fa-solid fa-exclamation"></i> - Minimali siuntos kaina, nepriklausomai nuo svorio - 20€.</p>
+  </div>
+  
+  <section class="price-list">
+    <div class="row-2">
+      <div class="column-2">
+        <i class="fa-solid fa-boxes-packing"></i>
+        <h3>Standartinės siuntos</h3>
+        <p class="list-description">Lagaminas, Turginė tašė, Polistireno ir kartono dėžės, turginės tašės ir kt.</p>
+        <ul class="list-price">
+          <li>Dėžutė, vokas, maišelis iki 5kg - 20€</li>
+          <li>Tašė, lagaminai, krepšys, dėžė nuo 5kg iki 30kg - 30€</li>
+          <li>Siuntos virš 30kg - nuo 30€</li>
+        </ul>
+      </div>
+
+      <div class="column-2">
+        <i class="fa-sharp fa-solid fa-motorcycle"></i>
+        <h3>Nestandartinės siuntos</h3>
+        <p class="list-description">Baldai, Dviračiai, Statybinės medžiagos, Automobilių dalis ir kt.</p>
+        <ul class="list-price">
+          <li>Baldai - nuo 40€</li>
+          <li>Buitine technika - nuo 50€</li>
+          <li>Dviratis - 50€</li>
+          <li>Židiniai, krosnelės - nuo 50€</li>
+          <li>Lengvojo automobilio ratlankiai - nuo 60€</li>
+          <li>Automobilio variklis - nuo 50€</li>
+        </ul>
+      </div>
+
+      <div class="column-2">
+        <i class="fa-sharp fa-solid fa-car"></i>
+        <h3>Transporto priemonės</h3>
+        <p class="list-description">Motociklai, Mašinos, Keturačiai, Sodo traktoriai ir kt.</p>
+        <ul class="list-price">
+          <li>Motociklai - nuo 120€</li>
+          <li>Keturačiai - nuo 100€</li>
+          <li>Sodo traktoriai - nuo 150€</li>
+          <li>Mašinos - nuo 700€</li>
+        </ul>
+      </div>
+    </div>
+   
+    <div class="row-3">
+      <div class="column-2">
+        <i class="fa-solid fa-person"></i>
+        <h3>Keleiviu pervežimas</h3>
+        <p>250€</p>
+        <p class="list-description">Į kainą įskaičiuota kelionės bilietas ir didelis lagaminas</p>
+      </div>
+
+    </div>
+    <div class="text-immportant">
+      <p>Jeigu nerandate savo siuntos, <a href="kontaktai.html">susisiekite su mumis</a></p>
+    </div>
+  </section>
+
+<section class="pointers-section">
+  <div class="pointer-div">
+    <ul class="list-price">
+    <li>Siuntos paėmimas ir pristatymas nuo durų iki durų papildomai kainuoja 10€</li>
+    <li>Pilnas krovininis mikroautobusas - 800€</li>
+    <li>Kainos vežant siuntas i šiaurę gali skirtis. Dėl tikslios kainos susisiekite su mumis</li>
+  </ul>
+  </div>
+  <div class="kroner">
+      <p>Atsiskaitant kronomis, taikomas tos dienos valiutos kursas</p>
+  </div>
+  
+</section>
+
+  <!--footer-->
+  <section class="footer">
+    <h4>EK Transport</h4>
+  
+    <p class="made-by"><i class="fa-regular fa-copyright"></i>EK Transport</p>
+  
+  </section>
+
+
+
+
+<!-----JavaScript for toggle menu--->
+<script>
+
+  var navLink = document.getElementById("navLinks");
+
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EK Transport</title>
+  <link rel="stylesheet" href="contact-us.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="slider.css">
+  <link rel="stylesheet" href="calender.css">
+  <link rel="stylesheet" href="whatwedo.css">
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="marsrutas.css">
+  <script src="https://kit.fontawesome.com/fbf0f92caf.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+  <section class="apie-header">
+    <nav>
+      <a href="index.html"><img src="pictures/ek transport-logo white.png" class="logo"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+
+          <ul>
+            <a href="apie.html"><li>APIE MUS</li></a>
+            <a href="marsrutas.html"><li>MARŠRUTAS</li></a>
+            <a href="kainos.html"><li>KAINOS</li></a>
+            <a href="taisykles.html"><li>TAISYKLĖS</li></a>
+            <a href="kontaktai.html"><li>KONTAKTAI</li></a>
+          </ul>
+
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+
+    </nav>
+    <h1>Maršrutas</h1> 
+</section>
+  <section class="road-content">
+    <h1>Maršrutas, kuriuo važiuojame į Norvegija</h1>
+
+    <div class="road-row">
+      <div class="road-col-1">
+        <ul>
+          <li>Į Norvegija ir atgal į Lietuva važiuojama nurodytu maršrutu (A - B).</li><br>
+          <li>Siuntos pristatomos ir renkamos visuose miestuose šalia ir esančius maršrute.</li><br>
+          <li>Maršrutas gali keistis priklausomai nuo keliu uždarymo ar blogu važiavimo sąlygų.</li><br>
+          <li>Pagal susitarimą galimas nukrypimas nuo maršruto, dėl siuntos pristatymo.</li><br>
+          <li>Vieną kartą į mėnesį vykstame į šiaurinę Norvegijos dali (B - C).</li><br>
+          <li>Jeigu kyla klausimu dėl jūsų pristatymo vietos <a href="kontaktai.html">susisiekite su mumis.</a></li>
+        </ul>
+      </div>
+      <div class="road-col-2">
+        <iframe src="https://www.google.com/maps/d/embed?mid=12t8W1ffSgixK64f_gr2QI7UZCJdJMxY&hl=en&ehbc=2E312F" width="640" height="480"></iframe>
+    </div>
+  </section>
+  <section class="footer">
+    <h4>EK Transport</h4>
+  
+    <p class="made-by"><i class="fa-regular fa-copyright"></i>EK Transport 2023</p>
+  
+  </section>
+  </div>
+  <script>
+
+    var navLink = document.getElementById("navLinks");
+  
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+  
+  </script>
+</body>
+</html>

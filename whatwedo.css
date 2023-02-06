@@ -1,0 +1,27 @@
+
+.three-points {
+  position: relative;
+  width:100%;
+  text-align: left;
+  line-height: 50px;
+  color: black;
+}
+
+.learn-more-button {
+  margin-top: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 10px 20px;
+  width: 120px;
+  font-size: 12px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.learn-more-button:hover {
+  border: 1px solid #da0030;
+  background: #da0030;
+  transition: 1s;
+}

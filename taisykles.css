@@ -1,0 +1,99 @@
+.taisykles-section {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 00px;
+  text-align: center;
+  padding-top: 40px;
+  border-bottom: rgb(210, 210, 210);
+}
+.taisykles-section h4 {
+  font-size: 30px;
+  margin-top: 0;
+}
+.row-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.column-4 {
+  flex-basis: 45%;
+  background-color: #d9f4fd;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+}
+.column-4 i {
+  font-size: 50px;
+}
+.column-5 {
+  vertical-align: middle;
+  height: 85px;
+  width: 85px;
+  border-radius: 80px;
+  padding: 20px;
+  text-align: center;
+  border-style: solid;
+  border-color: red;
+  background-color: rgb(251, 221, 221);
+}
+.column-5 i {
+  font-size: 30px;
+  padding-top: 10px;
+}
+.column-5 p {
+  vertical-align: bottom;
+}
+.column-6 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.column-6 h3 {
+  font-size: 20px;
+}
+.dangeruos {
+  margin-top: 20px;
+}
+.list-price-2 {
+  margin-bottom: 100px;
+  text-align: left;
+  margin-top: 20px;
+  line-height: 40px;
+}
+.rules-list {
+  margin-bottom: 50px;
+}
+@media(max-width: 700px){
+  .taisykles-section h1{
+    font-size: 25px;
+  }
+  .taisykles-section {
+    justify-content: center;
+  }
+  .taisykles-section h3 {
+    font-size: 20px;
+  }
+  .row-4  {
+    display: block;
+    margin: auto;
+  }
+  .row-4 li {
+    font-size: 14px;
+  }
+  .column-5 {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+  }
+  .column-5 p {
+    font-size: 15px;
+  }
+  .column-5 i {
+    font-size: 20px;
+  }
+}
+.potato-image {
+  height: 40px;
+  width: 40px;
+}
